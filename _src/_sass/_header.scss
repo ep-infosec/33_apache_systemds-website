@@ -1,0 +1,49 @@
+.site-header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgba(0,0,0,.9);
+  @media (min-width: $bp-medium) {
+    flex-direction: row;
+    position: absolute;
+    background: transparent;
+    &.sticky {
+      position: fixed;
+      left: 0;
+      top: -80px;
+      background-color: rgba(0,0,0,.9);
+    }
+    &--not-home {
+      background-color: rgba(0,0,0,.9);
+    }
+  }
+  .logo {
+    font-size: 20px;
+    font-weight: $font-weight-medium;
+    line-height: 1;
+    margin: 30px 0 0 0;
+    @media (min-width: $bp-medium) {
+      margin: 0;
+    }
+    .logo-mark {
+      display: inline-block;
+      height: 31px;
+      width: 32px;
+      background: transparent url(../img/SystemML-logo-white-32-cleaned.png) 0 0 no-repeat;
+      margin-right: 20px;
+    }
+    a {
+      color: #fff;
+      display: flex;
+      align-items: center;
+      &:visited {
+        color: #fff;
+      }
+    }
+  }
+}

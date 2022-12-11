@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+author: Apache SystemDS
+title: Apache SystemDS - An open source ML system for the end-to-end data science lifecycle
+email: dev@systemds.apache.org
+description: Apache SystemDS is an open source ML system for the end-to-end data science lifecycle
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://systemds.apache.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+source: _src
+
+exclude:
+  - _sass
+  - _scripts
+
+# https://jekyllrb.com/docs/collections/
+collections:
+  datasets:
+    output: true
+
+
+

@@ -1,0 +1,64 @@
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+topnav:
+
+- title: Download
+  url: /download
+
+- title: Get Started
+  url: /get-started
+
+- title: Docs
+  subcategories:
+  - title: latest
+    url: https://apache.github.io/systemds/
+  - title: 3.0.0 (stable)
+    url: https://systemds.apache.org/docs/3.0.0/
+  - title: Release Notes 3.0.0
+    url: https://systemds.apache.org/release-notes/systemds-release-notes-3.0.0
+  - title: 2.2.x (stable)
+    url: https://systemds.apache.org/docs/2.2.1/
+  - title: Release Notes 2.2.x
+    url: https://systemds.apache.org/release-notes/systemds-release-notes-2.2.x
+    
+
+- title: Community
+  subcategories:
+  - title: Get Involved
+    url: /community
+  - title: Issue Tracker
+    url: https://issues.apache.org/jira/browse/SYSTEMDS
+  - title: Source Code
+    url: https://github.com/apache/systemds
+  - title: Website Source Code
+    url: https://github.com/apache/systemds-website
+
+- title: Apache
+  subcategories:
+  - title: Apache Software Foundation
+    url: https://www.apache.org/foundation/how-it-works
+  - title: Apache License
+    url: https://www.apache.org/licenses/
+  - title: Sponsorship
+    url: https://www.apache.org/foundation/sponsorship
+  - title: Thanks
+    url: https://www.apache.org/foundation/thanks
+  - title: Privacy Policy
+    url: /privacy-policy
+  - title: Security
+    url: /security
